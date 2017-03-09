@@ -16,42 +16,16 @@
 
 PRODUCT_COPY_FILES += \
     vendor/pantech/ef63/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/a225p5_pm4.fw:system/etc/firmware_ef63s/a225p5_pm4.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/a225_pfp.fw:system/etc/firmware_ef63s/a225_pfp.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/a225_pm4.fw:system/etc/firmware_ef63s/a225_pm4.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/a300_pfp.fw:system/etc/firmware_ef63s/a300_pfp.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/a300_pm4.fw:system/etc/firmware_ef63s/a300_pm4.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/a330_pfp.fw:system/etc/firmware_ef63s/a330_pfp.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/a330_pm4.fw:system/etc/firmware_ef63s/a330_pm4.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/cpp_firmware_v1_1_1.fw:system/etc/firmware_ef63s/cpp_firmware_v1_1_1.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/cpp_firmware_v1_1_6.fw:system/etc/firmware_ef63s/cpp_firmware_v1_1_6.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/cpp_firmware_v1_2_0.fw:system/etc/firmware_ef63s/cpp_firmware_v1_2_0.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/leia_pfp_470.fw:system/etc/firmware_ef63s/leia_pfp_470.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/leia_pm4_470.fw:system/etc/firmware_ef63s/leia_pm4_470.fw \
+    vendor/pantech/ef63/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/pantech/ef63/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/pantech/ef63/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/pantech/ef63/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/pantech/ef63/proprietary/etc/firmware_ef63s/venus.b00:system/etc/firmware_ef63s/venus.b00 \
     vendor/pantech/ef63/proprietary/etc/firmware_ef63s/venus.b01:system/etc/firmware_ef63s/venus.b01 \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/venus.b02:system/etc/firmware_ef63s/venus.b02 \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/venus.b03:system/etc/firmware_ef63s/venus.b03 \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63s/venus.b04:system/etc/firmware_ef63s/venus.b04 \
     vendor/pantech/ef63/proprietary/etc/firmware_ef63s/venus.mbn:system/etc/firmware_ef63s/venus.mbn \
     vendor/pantech/ef63/proprietary/etc/firmware_ef63s/venus.mdt:system/etc/firmware_ef63s/venus.mdt \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/a225p5_pm4.fw:system/etc/firmware_ef63k/a225p5_pm4.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/a225_pfp.fw:system/etc/firmware_ef63k/a225_pfp.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/a225_pm4.fw:system/etc/firmware_ef63k/a225_pm4.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/a300_pfp.fw:system/etc/firmware_ef63k/a300_pfp.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/a300_pm4.fw:system/etc/firmware_ef63k/a300_pm4.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/a330_pfp.fw:system/etc/firmware_ef63k/a330_pfp.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/a330_pm4.fw:system/etc/firmware_ef63k/a330_pm4.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/cpp_firmware_v1_1_1.fw:system/etc/firmware_ef63k/cpp_firmware_v1_1_1.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/cpp_firmware_v1_1_6.fw:system/etc/firmware_ef63k/cpp_firmware_v1_1_6.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/cpp_firmware_v1_2_0.fw:system/etc/firmware_ef63k/cpp_firmware_v1_2_0.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/leia_pfp_470.fw:system/etc/firmware_ef63k/leia_pfp_470.fw \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/leia_pm4_470.fw:system/etc/firmware_ef63k/leia_pm4_470.fw \
     vendor/pantech/ef63/proprietary/etc/firmware_ef63k/venus.b00:system/etc/firmware_ef63k/venus.b00 \
     vendor/pantech/ef63/proprietary/etc/firmware_ef63k/venus.b01:system/etc/firmware_ef63k/venus.b01 \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/venus.b02:system/etc/firmware_ef63k/venus.b02 \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/venus.b03:system/etc/firmware_ef63k/venus.b03 \
-    vendor/pantech/ef63/proprietary/etc/firmware_ef63k/venus.b04:system/etc/firmware_ef63k/venus.b04 \
     vendor/pantech/ef63/proprietary/etc/firmware_ef63k/venus.mbn:system/etc/firmware_ef63k/venus.mbn \
     vendor/pantech/ef63/proprietary/etc/firmware_ef63k/venus.mdt:system/etc/firmware_ef63k/venus.mdt \
     vendor/pantech/ef63/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \

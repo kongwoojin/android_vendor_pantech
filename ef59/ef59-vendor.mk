@@ -16,6 +16,10 @@
 
 PRODUCT_COPY_FILES += \
     vendor/pantech/ef59/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/pantech/ef59/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/pantech/ef59/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/pantech/ef59/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/pantech/ef59/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/pantech/ef59/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/pantech/ef59/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/pantech/ef59/proprietary/lib/libmmcamera_rohm_eeprom.so:system/lib/libmmcamera_rohm_eeprom.so \

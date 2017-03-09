@@ -48,13 +48,9 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/pantech/msm8974-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/pantech/msm8974-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/pantech/msm8974-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/pantech/msm8974-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/pantech/msm8974-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
     vendor/pantech/msm8974-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/pantech/msm8974-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/pantech/msm8974-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/pantech/msm8974-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/pantech/msm8974-common/proprietary/etc/permissions/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
     vendor/pantech/msm8974-common/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/pantech/msm8974-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
