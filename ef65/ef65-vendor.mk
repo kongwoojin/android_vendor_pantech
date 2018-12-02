@@ -16,10 +16,10 @@
 
 PRODUCT_COPY_FILES += \
     vendor/pantech/ef65/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
-    vendor/pantech/ef65/proprietary/vendor/etc/firmware/venus.mbn:system/vendor/etc/firmware_ef63s/venus.mbn \
-    vendor/pantech/ef65/proprietary/vendor/etc/firmware/venus.mdt:system/vendor/etc/firmware_ef63s/venus.mdt \
-    vendor/pantech/ef65/proprietary/vendor/etc/firmware/venus.b00:system/vendor/etc/firmware_ef63s/venus.b00 \
-    vendor/pantech/ef65/proprietary/vendor/etc/firmware/venus.b01:system/vendor/etc/firmware_ef63s/venus.b01 \
+    vendor/pantech/ef65/proprietary/vendor/etc/firmware/venus.mbn:system/vendor/etc/firmware/venus.mbn \
+    vendor/pantech/ef65/proprietary/vendor/etc/firmware/venus.mdt:system/vendor/etc/firmware/venus.mdt \
+    vendor/pantech/ef65/proprietary/vendor/etc/firmware/venus.b00:system/vendor/etc/firmware/venus.b00 \
+    vendor/pantech/ef65/proprietary/vendor/etc/firmware/venus.b01:system/vendor/etc/firmware/venus.b01 \
     vendor/pantech/ef65/proprietary/vendor/etc/firmware/venus.b02:system/vendor/firmware/venus.b02 \
     vendor/pantech/ef65/proprietary/vendor/etc/firmware/venus.b03:system/vendor/firmware/venus.b03 \
     vendor/pantech/ef65/proprietary/vendor/etc/firmware/venus.b04:system/vendor/firmware/venus.b04 \
